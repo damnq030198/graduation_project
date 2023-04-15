@@ -3,8 +3,8 @@ Description=hash service
 After=network.target
 
 [Service]
-User=tuanvmse05866
+User=damnqse05820
 Group=www-data
-WorkingDirectory=/home/tuanvmse05866/project/hash-service
-Environment="PATH=/home/tuanvmse05866/project/hash-service/env/bin"
-ExecStart=/home/tuanvmse05866/project/hash-service/env/bin/gunicorn --workers 3 --bind 0.0.0.0:6969 -m 007 wsgi:app
+WorkingDirectory=/home/damnqse05820/project/hash-service
+Environment="PATH=/home/damnqse05820/project/hash-service/env/bin"
+ExecStart=/home/damnqse05820/project/hash-service/env/bin/gunicorn --workers 3 --bind 0.0.0.0:6969 -m 007 wsgi:app
