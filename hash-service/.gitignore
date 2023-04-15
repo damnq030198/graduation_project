@@ -1,0 +1,4 @@
+mongodb/
+__pycache__/
+.vscode/
+env/

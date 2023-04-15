@@ -1,0 +1,10 @@
+[Unit]
+Description=hash service
+After=network.target
+
+[Service]
+User=tuanvmse05866
+Group=www-data
+WorkingDirectory=/home/tuanvmse05866/project/hash-service
+Environment="PATH=/home/tuanvmse05866/project/hash-service/env/bin"
+ExecStart=/home/tuanvmse05866/project/hash-service/env/bin/gunicorn --workers 3 --bind 0.0.0.0:6969 -m 007 wsgi:app
