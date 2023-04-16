@@ -14,12 +14,13 @@
     pip install requirement.txt
     ```
    3. Run this project
-    - In *-service directories 
-    ```
-    python wisg.py
-    ```
-    - In font-end
-    ```
-    node 
-    ```
+      - In *-service directories 
+      ```
+      python wisg.py/app.py
+      ```
+      - In font-end
+      ```
+      react-scripts start 
+      ```
+      
     
