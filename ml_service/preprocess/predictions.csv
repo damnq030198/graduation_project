@@ -1,0 +1,3 @@
+domain,label,domain_name_length,domain_name_token_count,avg_domain_token_len,longest_token,IP_in_domain,number_special_char,number_digits,number_con_digits,longest_digits,number_letters,number_con_letters,longest_letters,EmbeddedBrandName,host_rank,country_rank,domcop_rank,age_of_domain,Resolved_IP_count,Mail_exchange_server_count,Name_server_count,HTTP_response_status,Time_to_live,SSL_certification
+facebook.com.vn,0,15,3,4.333333333333333,8,0,0,0,0,0,13,3,3,0,351872,14481,-1,0,1,0,3,200,3599,0
+google.com.vn,0,13,3,3.6666666666666665,6,0,0,0,0,0,11,3,3,0,551,4,47231,0,1,5,4,200,55,1
